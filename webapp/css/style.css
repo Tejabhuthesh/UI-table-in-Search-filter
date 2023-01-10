@@ -1,0 +1,23 @@
+/* Enter your custom styles here */
+.sapMTableTH {
+    background: #758ca469;
+    border-bottom: 1px solid #e5e5e5;
+    vertical-align: middle;
+}
+.sapMLabel {
+    color: #c9582fee;
+    font-size: .875rem;
+    font-family: "72","72full",Arial,Helvetica,sans-serif;
+    font-weight: normal;
+    display: inline-block;
+    white-space: nowrap;
+    cursor: text;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.sapUiTableCell .sapMLabel {
+    color: #c44a22d4;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 1.2rem;
+}

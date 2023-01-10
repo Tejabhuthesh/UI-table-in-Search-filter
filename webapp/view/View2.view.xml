@@ -1,0 +1,33 @@
+<mvc:View controllerName="uitable.controller.View2" xmlns:f="sap.ui.layout.form" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+    <Page id="page" title="{i18n>title}" showNavButton="true" navButtonPress="onNavBack">
+        <content>
+            <f:SimpleForm id="form1"  editable="false" layout="ResponsiveGridLayout" title="Customers Deatails" visible="true">
+                <f:content>
+             
+                    <Label text="CustomerID" />
+                    <Text text="{Data2>/0/CustomerID}" />
+                    <Label text="CompanyName" />
+                    <Text text="{Data2>/0/CompanyName}" />
+                    <Label text="ContactName" />
+                    <Text text="{Data2>/0/ContactName}" />
+                    <Label text="ContactTitle" />
+                    <Text text="{Data2>/0/ContactTitle}" />
+                    <Label text="Address" />
+                    <Text text="{Data2>/0/Address}" />
+                    <Label text="City" />
+                    <Text text="{Data2>/0/City}" />
+                    <Label text="Region" />
+                    <Text text="{Data2>/0/Region}" />
+                    <Label text="PostalCode" />
+                    <Text text="{Data2>/0/PostalCode}" />
+                    <Label text="Country" />
+                    <Text text="{Data2>/0/Country}" />
+                    <Label text="Phone" />
+                    <Text text="{Data2>/0/Phone}" />
+                    <Label text="Fax" />
+                    <Text text="{Data2>/0/Fax}" />
+                </f:content>
+            </f:SimpleForm>
+        </content>
+    </Page>
+</mvc:View>
